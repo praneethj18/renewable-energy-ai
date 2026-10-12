@@ -1,0 +1,10 @@
+RENEWABLE ENERGY AI - DATA QUALITY REPORT
+=============================================
+Total records processed: 2160
+Valid records: 2160
+Invalid records: 0
+Acceptance rate: 100.00%
+
+VALIDATION ERROR SUMMARY
+------------------------------
+No validation errors found.

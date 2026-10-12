@@ -1,0 +1,142 @@
+{
+  "evaluation_type": "Chronological retrospective one-step evaluation",
+  "dataset": "E:\\renewable-energy-ai\\data\\real_world\\germany_weather_energy_merged.csv",
+  "weather_source": "Open-Meteo ERA5",
+  "energy_source": "OPSD Germany",
+  "results": {
+    "solar_generation_mw": {
+      "target": "solar_generation_mw",
+      "source": "OPSD Germany + Open-Meteo ERA5",
+      "geographic_scope": "German national/regional energy measurements with Berlin reference-location weather",
+      "training_records": 40120,
+      "test_records": 10031,
+      "training_start_utc": "2015-01-02T07:00:00+00:00",
+      "training_end_utc": "2019-08-10T00:00:00+00:00",
+      "test_start_utc": "2019-08-10T01:00:00+00:00",
+      "test_end_utc": "2020-09-30T23:00:00+00:00",
+      "model": {
+        "mae_mw": 1238.9261090325742,
+        "rmse_mw": 2470.876385815407
+      },
+      "same_hour_previous_day_baseline": {
+        "mae_mw": 1157.245040374838,
+        "rmse_mw": 2496.277205250869
+      },
+      "features": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "precipitation",
+        "wind_speed_10m",
+        "wind_speed_100m",
+        "wind_direction_10m",
+        "wind_direction_100m",
+        "cloud_cover",
+        "shortwave_radiation",
+        "direct_radiation",
+        "hour",
+        "day_of_week",
+        "month",
+        "hour_sin",
+        "hour_cos",
+        "day_sin",
+        "day_cos"
+      ],
+      "limitations": [
+        "Single-location Berlin weather is not representative of the entire German energy system.",
+        "This is a retrospective one-step experiment, not a validated operational forecast.",
+        "Weather features are historical observations; future forecast-time availability must be addressed before deployment."
+      ],
+      "model_path": "E:\\renewable-energy-ai\\models\\real_world_weather\\solar_generation_mw_weather_model.joblib"
+    },
+    "wind_generation_mw": {
+      "target": "wind_generation_mw",
+      "source": "OPSD Germany + Open-Meteo ERA5",
+      "geographic_scope": "German national/regional energy measurements with Berlin reference-location weather",
+      "training_records": 40120,
+      "test_records": 10031,
+      "training_start_utc": "2015-01-02T07:00:00+00:00",
+      "training_end_utc": "2019-08-10T00:00:00+00:00",
+      "test_start_utc": "2019-08-10T01:00:00+00:00",
+      "test_end_utc": "2020-09-30T23:00:00+00:00",
+      "model": {
+        "mae_mw": 4742.88208753544,
+        "rmse_mw": 6298.627231706094
+      },
+      "same_hour_previous_day_baseline": {
+        "mae_mw": 7122.763632738511,
+        "rmse_mw": 9430.37711249661
+      },
+      "features": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "precipitation",
+        "wind_speed_10m",
+        "wind_speed_100m",
+        "wind_direction_10m",
+        "wind_direction_100m",
+        "cloud_cover",
+        "shortwave_radiation",
+        "direct_radiation",
+        "hour",
+        "day_of_week",
+        "month",
+        "hour_sin",
+        "hour_cos",
+        "day_sin",
+        "day_cos"
+      ],
+      "limitations": [
+        "Single-location Berlin weather is not representative of the entire German energy system.",
+        "This is a retrospective one-step experiment, not a validated operational forecast.",
+        "Weather features are historical observations; future forecast-time availability must be addressed before deployment."
+      ],
+      "model_path": "E:\\renewable-energy-ai\\models\\real_world_weather\\wind_generation_mw_weather_model.joblib"
+    },
+    "demand_mw": {
+      "target": "demand_mw",
+      "source": "OPSD Germany + Open-Meteo ERA5",
+      "geographic_scope": "German national/regional energy measurements with Berlin reference-location weather",
+      "training_records": 39455,
+      "test_records": 9864,
+      "training_start_utc": "2015-01-08T07:00:00+00:00",
+      "training_end_utc": "2019-08-16T23:00:00+00:00",
+      "test_start_utc": "2019-08-17T00:00:00+00:00",
+      "test_end_utc": "2020-09-30T23:00:00+00:00",
+      "model": {
+        "mae_mw": 1433.1988240403616,
+        "rmse_mw": 2298.3302774776917
+      },
+      "same_hour_previous_day_baseline": {
+        "mae_mw": 4146.108880778589,
+        "rmse_mw": 6330.291400010191
+      },
+      "features": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "precipitation",
+        "wind_speed_10m",
+        "wind_speed_100m",
+        "wind_direction_10m",
+        "wind_direction_100m",
+        "cloud_cover",
+        "shortwave_radiation",
+        "direct_radiation",
+        "hour",
+        "day_of_week",
+        "month",
+        "hour_sin",
+        "hour_cos",
+        "day_sin",
+        "day_cos",
+        "demand_mw_lag_24",
+        "demand_mw_lag_168"
+      ],
+      "limitations": [
+        "Single-location Berlin weather is not representative of the entire German energy system.",
+        "This is a retrospective one-step experiment, not a validated operational forecast.",
+        "Weather features are historical observations; future forecast-time availability must be addressed before deployment."
+      ],
+      "model_path": "E:\\renewable-energy-ai\\models\\real_world_weather\\demand_mw_weather_model.joblib"
+    }
+  }
+}

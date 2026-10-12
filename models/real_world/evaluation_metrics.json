@@ -1,0 +1,20 @@
+{
+    "solar_generation_mw": {
+        "model_mae_mw": 1137.2602916696533,
+        "model_rmse_mw": 2332.608730026233,
+        "baseline_mae_mw": 1148.7672974867328,
+        "baseline_rmse_mw": 2479.829780804379
+    },
+    "wind_generation_mw": {
+        "model_mae_mw": 6746.925917911166,
+        "model_rmse_mw": 8804.199406907484,
+        "baseline_mae_mw": 7096.471412836688,
+        "baseline_rmse_mw": 9400.502942196024
+    },
+    "demand_mw": {
+        "model_mae_mw": 1562.511647926012,
+        "model_rmse_mw": 2425.589829493354,
+        "baseline_mae_mw": 4133.1475918694305,
+        "baseline_rmse_mw": 6320.68543168573
+    }
+}

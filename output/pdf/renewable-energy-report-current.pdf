@@ -1,0 +1,1766 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R] /Count 6 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 4112 >>
+stream
+0.02 0.35 0.27 rg
+BT
+/F2 15 Tf
+50 756 Td
+(Renewable Energy AI - Operational Report) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 729 Td
+(Run ID: 8092c3bc-38e4-4c14-bd44-856ce295f39f) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 717 Td
+(Generated UTC: 2026-10-12T12:38:15.807192+00:00) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 705 Td
+(Report period \(UTC\): 2026-10-12 through 2026-10-14) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 693 Td
+(Run recorded: 2026-10-12T12:20:51.183048Z through 2026-10-12T12:20:51.183048Z) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 675 Td
+(Executive summary) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 654 Td
+(Workflow state: awaiting human review. Plan version: 1.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 642 Td
+(Human approval: pending; persisted decisions in period: 0.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 630 Td
+(Stored measurements in period: 0; included in report: 0 \(maximum 100 rows\).) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 618 Td
+(Generation/demand forecast intervals in period: 48/48.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 606 Td
+(Optimization intervals in period: 48; aligned measured comparisons: 0.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 594 Td
+(Optimization output is a recommendation. No physical grid dispatch is represented by) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 582 Td
+(this report.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 564 Td
+(Workflow status and human review) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 543 Td
+(Effective workflow state: awaiting_human_review) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 531 Td
+(Approval state: pending) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 519 Td
+(Automated review: ready_for_human_review) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 507 Td
+(Approval history: no human decision is recorded in the selected period.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 489 Td
+(Registered assets and stored measurements) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 468 Td
+(Asset registry reflects current database records; historical registry snapshots are not) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 456 Td
+(stored.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 444 Td
+(Solar Farm Alpha | solar | 10.00 MW | active | Hyderabad) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 432 Td
+(asset | wind | 0.31 MW | inactive | hyderabad) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 420 Td
+(wind test | wind | 2.01 MW | active | Hyderabad) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 408 Td
+(asset 4 | battery | 2.71 MW | active | Hyderabad) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 396 Td
+(No stored measurements fall within the selected period.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 378 Td
+(Weather inputs and provenance) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 357 Td
+(Provider: Open-Meteo forecast API.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 345 Td
+(Retrieved: 2026-10-12T12:20:41.369574Z.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 333 Td
+(Fallback status: not_used.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 321 Td
+(Current weather input: time=2026-10-12T12:15, interval=900, temperature_2m=31.2,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 309 Td
+(relative_humidity_2m=31, precipitation=0.0, cloud_cover=0, wind_speed_10m=3.76,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 297 Td
+(wind_direction_10m=30, wind_speed_100m=5.59, wind_direction_100m=32,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 285 Td
+(shortwave_radiation=33.0, direct_radiation=12.0.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 273 Td
+(Timestamped weather forecast records included in period: 48 of 48.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 255 Td
+(Solar and wind forecasts) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 234 Td
+(Model source: Synthetic training dataset.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 222 Td
+(Model version: {"solar":"7ad4557981ac","wind":"fe254e57cd96"}.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 210 Td
+(Provenance limitation: model training data is synthetic; these metrics do not establish) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 198 Td
+(real-world forecast accuracy.) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.39 0.42 rg
+50 28 Td
+(Renewable Energy AI | Page 1 of 6) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4419 >>
+stream
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 756 Td
+(Stored held-out evaluation output \(model evaluation, not period-filtered\):) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 744 Td
+(Intervals included: 48 of 48 stored forecast rows.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 726 Td
+(Demand forecast) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 705 Td
+(Model source: synthetic_energy.csv.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 693 Td
+(Model version: 086525813a1c.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 681 Td
+(Provenance limitation: model training data is synthetic; these metrics do not establish) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 669 Td
+(real-world forecast accuracy.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 657 Td
+(Stored held-out evaluation output \(model evaluation, not period-filtered\):) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 645 Td
+(model_mae_mw: 0.2254 MW) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 633 Td
+(model_rmse_mw: 0.2768 MW) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 621 Td
+(same_hour_previous_day_mae_mw: 0.2983 MW) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 609 Td
+(same_hour_previous_day_rmse_mw: 0.3671 MW) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 597 Td
+(holdout_records: 428.0000) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 585 Td
+(holdout_start_utc: 2026-09-23T17:00:00+00:00) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 573 Td
+(holdout_end_utc: 2026-10-11T12:00:00+00:00) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 561 Td
+(evaluation_data_source: synthetic_energy.csv) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 549 Td
+(evaluation_scope: Chronological held-out synthetic-facility observations) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 537 Td
+(Intervals included: 48 of 48 stored forecast rows.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 519 Td
+(Energy balance and optimization recommendation) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 498 Td
+(Optimizer status: Optimal; feasible: True.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 486 Td
+(Objective: Prioritize unmet-demand reduction, then grid-import reduction,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 474 Td
+(renewable-curtailment reduction, and lower cycling..) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 462 Td
+(Optimizer objective score for the full workflow horizon \(unitless\): 135323.83.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 450 Td
+(Selected-period totals recomputed from timestamped schedule rows in this UTC reporting) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 438 Td
+(period:) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 426 Td
+(Grid imports 135.32 MWh | exports 21.73 MWh | unmet demand 0.00 MWh | curtailed) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 414 Td
+(generation 0.00 MWh | efficiency losses 1.314 MWh.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 402 Td
+(Battery: capacity 8.00 MWh; initial SoC 45.00%; terminal SoC 45.00%.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 390 Td
+(Full-horizon constraint battery_capacity_mwh: 8.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 378 Td
+(Full-horizon constraint max_charge_mw: 2.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 366 Td
+(Full-horizon constraint max_discharge_mw: 2.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 354 Td
+(Full-horizon constraint min_soc_pct: 10.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 342 Td
+(Full-horizon constraint max_soc_pct: 90.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 330 Td
+(Full-horizon constraint charge_efficiency: 0.95) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 318 Td
+(Full-horizon constraint discharge_efficiency: 0.95) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 306 Td
+(Full-horizon constraint initial_soc_pct: 45.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 294 Td
+(Full-horizon constraint terminal_soc_pct: 45.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 282 Td
+(Full-horizon constraint timestep_hours: 1.0) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 270 Td
+(Schedule rows in selected period: 48 of 48.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 252 Td
+(Performance analysis and alerts) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 231 Td
+(Measurement comparison status: no_aligned_measurements; aligned actual timestamps in) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 219 Td
+(period: 0.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 207 Td
+(Screening threshold: 0.78 MW.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 195 Td
+(No stored asset measurements align exactly with forecast timestamps.) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.39 0.42 rg
+50 28 Td
+(Renewable Energy AI | Page 2 of 6) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 5502 >>
+stream
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 756 Td
+(No actual-versus-forecast deviations are reported because no aligned actual measurement) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 744 Td
+(is available for this period.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 732 Td
+(Findings: 26 evidence records across 1 finding category.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 720 Td
+(Generation Demand Imbalance \(26\): Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 708 Td
+(Persisted alerts for this run in selected period: 27 records.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 696 Td
+(high Inactive Assets | 1 records | IDs 454 | created 2026-10-12T12:20:51.260805Z to) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 684 Td
+(2026-10-12T12:20:51.260805Z | statuses open=1 | 1 asset\(s\) are marked inactive.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 672 Td
+(medium Generation Demand Imbalance | 26 records | IDs 455, 456, 457, 458, 459, 460,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 660 Td
+(461, 462, 463, 464, 465, 466, 467, 468, 469, 470, 471, 472, 473, 474, 475, 476, 477,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 648 Td
+(478, 479, 480 | created 2026-10-12T12:20:51.260805Z to 2026-10-12T12:20:51.260805Z |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 636 Td
+(statuses open=26 | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 618 Td
+(Data coverage and limitations) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 597 Td
+(1 finding had no usable timestamp and were excluded from the filtered finding detail.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 585 Td
+(Weather current conditions, run-level model evaluation metrics, and the current asset) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 573 Td
+(registry are snapshots without period-specific history; they are disclosed as such and) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 561 Td
+(are not presented as period-filtered observations.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 549 Td
+(Workflow status is the saved state of the selected run. Execution-trace events have no) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 537 Td
+(individual timestamps, so the full run trace is included and is not period-filtered.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 519 Td
+(Appendix: selected forecast and finding evidence) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 498 Td
+(Solar/wind forecast coverage: 48 intervals from 2026-10-12T13:00:00Z to) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 486 Td
+(2026-10-14T12:00:00Z.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 474 Td
+(Peak forecast solar: 8.91 MW at 2026-10-13T07:00:00Z; peak wind: 0.47 MW at) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 462 Td
+(2026-10-14T12:00:00Z.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 450 Td
+(Demand forecast coverage: 48 intervals; peak 6.08 MW at 2026-10-13T19:00:00Z.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 438 Td
+(Demand lag-source counts: earlier_model_prediction=24, earlier_prediction_fallback=23,) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 426 Td
+(last_observed_value_fallback=1.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 408 Td
+(Appendix: timestamped optimization schedule) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 387 Td
+(Power columns are MW; battery energy is MWh. One row is one stored interval.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 375 Td
+(2026-10-12T13:00:00Z | gen 0.48 | demand 5.24 | charge 0.00 | discharge 0.66 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 363 Td
+(4.11 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 2.91 MWh / 36.32% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 351 Td
+(2026-10-12T14:00:00Z | gen 0.21 | demand 4.92 | charge 0.00 | discharge 2.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 339 Td
+(2.71 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 327 Td
+(2026-10-12T15:00:00Z | gen 0.20 | demand 5.10 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 315 Td
+(4.90 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 303 Td
+(2026-10-12T16:00:00Z | gen 0.11 | demand 5.40 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 291 Td
+(5.29 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 279 Td
+(2026-10-12T17:00:00Z | gen 0.13 | demand 5.79 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 267 Td
+(5.65 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 255 Td
+(2026-10-12T18:00:00Z | gen 0.15 | demand 5.79 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 243 Td
+(5.65 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 231 Td
+(2026-10-12T19:00:00Z | gen 0.11 | demand 5.98 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 219 Td
+(5.87 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 207 Td
+(2026-10-12T20:00:00Z | gen 0.10 | demand 5.86 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 195 Td
+(5.76 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.39 0.42 rg
+50 28 Td
+(Renewable Energy AI | Page 3 of 6) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 6755 >>
+stream
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 756 Td
+(2026-10-12T21:00:00Z | gen 0.10 | demand 5.53 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 744 Td
+(5.43 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 732 Td
+(2026-10-12T22:00:00Z | gen 0.12 | demand 5.41 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 720 Td
+(5.28 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 708 Td
+(2026-10-12T23:00:00Z | gen 0.14 | demand 4.94 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 696 Td
+(4.80 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 684 Td
+(2026-10-13T00:00:00Z | gen 0.13 | demand 3.91 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 672 Td
+(3.78 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 660 Td
+(2026-10-13T01:00:00Z | gen 0.25 | demand 4.01 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 648 Td
+(3.76 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 636 Td
+(2026-10-13T02:00:00Z | gen 1.40 | demand 4.00 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 624 Td
+(2.60 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 612 Td
+(2026-10-13T03:00:00Z | gen 3.65 | demand 4.21 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 600 Td
+(0.56 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 588 Td
+(2026-10-13T04:00:00Z | gen 5.84 | demand 4.24 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 576 Td
+(0.00 | export 1.60 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 564 Td
+(2026-10-13T05:00:00Z | gen 7.60 | demand 4.39 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 552 Td
+(0.00 | export 3.22 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 540 Td
+(2026-10-13T06:00:00Z | gen 8.77 | demand 4.84 | charge 0.43 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 528 Td
+(0.00 | export 3.50 | unmet 0.00 | curtailed 0.00 | battery 1.21 MWh / 15.17% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 516 Td
+(2026-10-13T07:00:00Z | gen 9.23 | demand 5.20 | charge 2.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 504 Td
+(0.00 | export 2.03 | unmet 0.00 | curtailed 0.00 | battery 3.11 MWh / 38.92% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 492 Td
+(2026-10-13T08:00:00Z | gen 8.81 | demand 5.54 | charge 2.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 480 Td
+(0.00 | export 1.27 | unmet 0.00 | curtailed 0.00 | battery 5.01 MWh / 62.67% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 468 Td
+(2026-10-13T09:00:00Z | gen 7.72 | demand 5.70 | charge 2.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 456 Td
+(0.00 | export 0.03 | unmet 0.00 | curtailed 0.00 | battery 6.91 MWh / 86.42% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 444 Td
+(2026-10-13T10:00:00Z | gen 6.06 | demand 5.75 | charge 0.30 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 432 Td
+(0.00 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 7.20 MWh / 90.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 420 Td
+(2026-10-13T11:00:00Z | gen 4.06 | demand 5.52 | charge 0.00 | discharge 1.46 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 408 Td
+(0.00 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 5.66 MWh / 70.79% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 396 Td
+(2026-10-13T12:00:00Z | gen 1.85 | demand 5.21 | charge 0.00 | discharge 2.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 384 Td
+(1.36 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 3.56 MWh / 44.47% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 372 Td
+(2026-10-13T13:00:00Z | gen 0.32 | demand 5.07 | charge 0.00 | discharge 2.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 360 Td
+(2.75 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 1.45 MWh / 18.16% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 348 Td
+(2026-10-13T14:00:00Z | gen 0.18 | demand 4.99 | charge 0.00 | discharge 0.62 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 336 Td
+(4.20 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 324 Td
+(2026-10-13T15:00:00Z | gen 0.19 | demand 5.11 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 312 Td
+(4.92 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 300 Td
+(2026-10-13T16:00:00Z | gen 0.12 | demand 5.44 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 288 Td
+(5.32 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 276 Td
+(2026-10-13T17:00:00Z | gen 0.10 | demand 5.48 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 264 Td
+(5.38 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 252 Td
+(2026-10-13T18:00:00Z | gen 0.05 | demand 5.86 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 240 Td
+(5.81 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 228 Td
+(2026-10-13T19:00:00Z | gen 0.04 | demand 6.08 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 216 Td
+(6.04 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 204 Td
+(2026-10-13T20:00:00Z | gen 0.04 | demand 6.03 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 192 Td
+(5.99 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 180 Td
+(2026-10-13T21:00:00Z | gen 0.10 | demand 5.58 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 168 Td
+(5.49 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.39 0.42 rg
+50 28 Td
+(Renewable Energy AI | Page 4 of 6) Tj
+ET
+endstream
+endobj
+11 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 12 0 R >>
+endobj
+12 0 obj
+<< /Length 6450 >>
+stream
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 756 Td
+(2026-10-13T22:00:00Z | gen 0.16 | demand 5.16 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 744 Td
+(4.99 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 732 Td
+(2026-10-13T23:00:00Z | gen 0.22 | demand 4.97 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 720 Td
+(4.75 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 708 Td
+(2026-10-14T00:00:00Z | gen 0.20 | demand 4.02 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 696 Td
+(3.82 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 684 Td
+(2026-10-14T01:00:00Z | gen 0.23 | demand 3.99 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 672 Td
+(3.76 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 660 Td
+(2026-10-14T02:00:00Z | gen 1.43 | demand 3.98 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 648 Td
+(2.55 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 636 Td
+(2026-10-14T03:00:00Z | gen 3.61 | demand 4.22 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 624 Td
+(0.61 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 612 Td
+(2026-10-14T04:00:00Z | gen 5.77 | demand 4.21 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 600 Td
+(0.00 | export 1.56 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 588 Td
+(2026-10-14T05:00:00Z | gen 7.45 | demand 4.40 | charge 0.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 576 Td
+(0.00 | export 3.05 | unmet 0.00 | curtailed 0.00 | battery 0.80 MWh / 10.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 564 Td
+(2026-10-14T06:00:00Z | gen 8.47 | demand 4.81 | charge 0.85 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 552 Td
+(0.00 | export 2.81 | unmet 0.00 | curtailed 0.00 | battery 1.61 MWh / 20.13% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 540 Td
+(2026-10-14T07:00:00Z | gen 8.97 | demand 5.21 | charge 2.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 528 Td
+(0.00 | export 1.75 | unmet 0.00 | curtailed 0.00 | battery 3.51 MWh / 43.88% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 516 Td
+(2026-10-14T08:00:00Z | gen 8.59 | demand 5.69 | charge 2.00 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 504 Td
+(0.00 | export 0.90 | unmet 0.00 | curtailed 0.00 | battery 5.41 MWh / 67.63% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 492 Td
+(2026-10-14T09:00:00Z | gen 7.64 | demand 5.90 | charge 1.74 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 480 Td
+(0.00 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 7.07 MWh / 88.34% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 468 Td
+(2026-10-14T10:00:00Z | gen 5.93 | demand 5.79 | charge 0.14 | discharge 0.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 456 Td
+(0.00 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 7.20 MWh / 90.00% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 444 Td
+(2026-10-14T11:00:00Z | gen 3.77 | demand 5.40 | charge 0.00 | discharge 1.42 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 432 Td
+(0.21 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 5.71 MWh / 71.32% SoC) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 420 Td
+(2026-10-14T12:00:00Z | gen 1.88 | demand 5.12 | charge 0.00 | discharge 2.00 | import) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 408 Td
+(1.24 | export 0.00 | unmet 0.00 | curtailed 0.00 | battery 3.60 MWh / 45.00% SoC) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 390 Td
+(Appendix: timestamped finding evidence) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 369 Td
+(generation_demand_imbalance | 2026-10-12T13:00:00Z | Forecast shortfall 4.77 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 357 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 345 Td
+(generation_demand_imbalance | 2026-10-12T14:00:00Z | Forecast shortfall 4.71 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 333 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 321 Td
+(generation_demand_imbalance | 2026-10-12T15:00:00Z | Forecast shortfall 4.90 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 309 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 297 Td
+(generation_demand_imbalance | 2026-10-12T16:00:00Z | Forecast shortfall 5.29 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 285 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 273 Td
+(generation_demand_imbalance | 2026-10-12T17:00:00Z | Forecast shortfall 5.65 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 261 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 249 Td
+(generation_demand_imbalance | 2026-10-12T18:00:00Z | Forecast shortfall 5.65 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 237 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 225 Td
+(generation_demand_imbalance | 2026-10-12T19:00:00Z | Forecast shortfall 5.87 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 213 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 201 Td
+(generation_demand_imbalance | 2026-10-12T20:00:00Z | Forecast shortfall 5.76 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 189 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 177 Td
+(generation_demand_imbalance | 2026-10-12T21:00:00Z | Forecast shortfall 5.43 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 165 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.39 0.42 rg
+50 28 Td
+(Renewable Energy AI | Page 5 of 6) Tj
+ET
+endstream
+endobj
+13 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 15 0 R /F2 16 0 R >> >> /Contents 14 0 R >>
+endobj
+14 0 obj
+<< /Length 5603 >>
+stream
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 756 Td
+(generation_demand_imbalance | 2026-10-12T22:00:00Z | Forecast shortfall 5.28 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 744 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 732 Td
+(generation_demand_imbalance | 2026-10-12T23:00:00Z | Forecast shortfall 4.80 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 720 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 708 Td
+(generation_demand_imbalance | 2026-10-13T00:00:00Z | Forecast shortfall 3.78 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 696 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 684 Td
+(generation_demand_imbalance | 2026-10-13T01:00:00Z | Forecast shortfall 3.76 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 672 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 660 Td
+(generation_demand_imbalance | 2026-10-13T13:00:00Z | Forecast shortfall 4.75 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 648 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 636 Td
+(generation_demand_imbalance | 2026-10-13T14:00:00Z | Forecast shortfall 4.82 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 624 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 612 Td
+(generation_demand_imbalance | 2026-10-13T15:00:00Z | Forecast shortfall 4.92 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 600 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 588 Td
+(generation_demand_imbalance | 2026-10-13T16:00:00Z | Forecast shortfall 5.32 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 576 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 564 Td
+(generation_demand_imbalance | 2026-10-13T17:00:00Z | Forecast shortfall 5.38 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 552 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 540 Td
+(generation_demand_imbalance | 2026-10-13T18:00:00Z | Forecast shortfall 5.81 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 528 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 516 Td
+(generation_demand_imbalance | 2026-10-13T19:00:00Z | Forecast shortfall 6.04 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 504 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 492 Td
+(generation_demand_imbalance | 2026-10-13T20:00:00Z | Forecast shortfall 5.99 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 480 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 468 Td
+(generation_demand_imbalance | 2026-10-13T21:00:00Z | Forecast shortfall 5.49 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 456 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 444 Td
+(generation_demand_imbalance | 2026-10-13T22:00:00Z | Forecast shortfall 4.99 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 432 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 420 Td
+(generation_demand_imbalance | 2026-10-13T23:00:00Z | Forecast shortfall 4.75 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 408 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 396 Td
+(generation_demand_imbalance | 2026-10-14T00:00:00Z | Forecast shortfall 3.82 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 384 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 372 Td
+(generation_demand_imbalance | 2026-10-14T01:00:00Z | Forecast shortfall 3.76 MW |) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 360 Td
+(severity medium | Forecast generation is below 25% of forecast demand.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 342 Td
+(Alert record detail is summarized above by severity and reason; IDs, creation-time) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 330 Td
+(range, and status counts identify the persisted records.) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 318 Td
+(Data rows without a timestamp and therefore excluded from this filtered appendix:) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 306 Td
+(forecasts/schedule 0; comparisons 0; findings 1; approval decisions 0.) Tj
+ET
+0.08 0.33 0.43 rg
+BT
+/F2 10 Tf
+50 288 Td
+(Appendix: workflow execution trace) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 267 Td
+(asset_monitoring:attention_required) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 255 Td
+(weather_intelligence:success) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 243 Td
+(demand_forecasting:success) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 231 Td
+(generation_forecasting:success) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 219 Td
+(performance_anomaly:attention_required) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 207 Td
+(battery_management:ready) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 195 Td
+(grid_coordination:success) Tj
+ET
+0.12 0.16 0.19 rg
+BT
+/F1 8.5 Tf
+50 183 Td
+(reviewer:ready_for_human_review) Tj
+ET
+BT
+/F1 8 Tf
+0.35 0.39 0.42 rg
+50 28 Td
+(Renewable Energy AI | Page 6 of 6) Tj
+ET
+endstream
+endobj
+15 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+16 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 17
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000153 00000 n 
+0000000291 00000 n 
+0000004455 00000 n 
+0000004593 00000 n 
+0000009064 00000 n 
+0000009202 00000 n 
+0000014756 00000 n 
+0000014895 00000 n 
+0000021703 00000 n 
+0000021843 00000 n 
+0000028346 00000 n 
+0000028486 00000 n 
+0000034142 00000 n 
+0000034213 00000 n 
+trailer
+<< /Size 17 /Root 1 0 R >>
+startxref
+34289
+%%EOF

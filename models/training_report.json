@@ -1,0 +1,24 @@
+{
+  "solar": {
+    "target": "solar",
+    "training_records": 1728,
+    "testing_records": 432,
+    "mae_mw": 0.0988,
+    "rmse_mw": 0.127,
+    "baseline_mae_mw": 5.9056,
+    "baseline_rmse_mw": 6.4026,
+    "data_source": "synthetic_energy.csv",
+    "model_path": "E:\\renewable-energy-ai\\models\\solar_forecast_model.joblib"
+  },
+  "wind": {
+    "target": "wind",
+    "training_records": 1728,
+    "testing_records": 432,
+    "mae_mw": 0.1604,
+    "rmse_mw": 0.2063,
+    "baseline_mae_mw": 3.5554,
+    "baseline_rmse_mw": 3.9333,
+    "data_source": "synthetic_energy.csv",
+    "model_path": "E:\\renewable-energy-ai\\models\\wind_forecast_model.joblib"
+  }
+}

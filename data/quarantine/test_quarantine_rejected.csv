@@ -1,0 +1,2 @@
+timestamp_utc,asset_id,solar_mw,wind_mw,demand_mw,solar_irradiance_wm2,cloud_cover_pct,temperature_c,wind_speed_ms,wind_direction_deg,battery_soc_pct,asset_status,data_source,_source_row,_errors,validation_errors
+,TEST_QUARANTINE,2,1,100,500,20,30,5,180,60,available,quarantine_test,2,['Invalid timestamp'],Invalid timestamp
