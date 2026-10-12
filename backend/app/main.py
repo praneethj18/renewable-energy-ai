@@ -19,6 +19,15 @@ from app.db import models as db_models
 app = FastAPI(title="Renewable Energy AI", description="Renewable Energy Generation Forecasting and Grid Coordination System", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
+    allow_origins=[
+        "https://renewable-energy-ai.vercel.app",
+    ],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+app.add_middleware(
+    CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
     allow_credentials=True, allow_methods=["*"], allow_headers=["*"],
 )
