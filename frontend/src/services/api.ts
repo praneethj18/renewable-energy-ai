@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8001",
-  timeout: 15000,
+  baseURL: import.meta.env.VITE_API_BASE_URL || "",
+  timeout: 60000,
   headers: {
     "Content-Type": "application/json",
   },
@@ -285,9 +285,6 @@ export async function startWorkflow(payload: {
   plan_version?: number;
   idempotency_key?: string;
 } = {}): Promise<WorkflowStatus> {
-  // The synchronous workflow includes a live weather-provider request (up to
-  // 20 seconds) before it reaches the optimizer. Keep this endpoint bounded,
-  // while allowing that external request and the 48-step workflow to finish.
   const storageKey = "renewable-energy-workflow-start-idempotency-key";
   let idempotencyKey = payload.idempotency_key ?? sessionStorage.getItem(storageKey);
   if (!idempotencyKey) {
@@ -298,12 +295,10 @@ export async function startWorkflow(payload: {
     const response = await api.post<WorkflowStatus>("/workflow/start", {
       ...payload,
       idempotency_key: idempotencyKey,
-    }, { timeout: 30000 });
+    }, { timeout: 60000 });
     sessionStorage.removeItem(storageKey);
     return response.data;
   } catch (error) {
-    // Keep the key after a connection timeout so a retry/reload cannot start
-    // another run while the backend may still be processing the first one.
     if (axios.isAxiosError(error) && error.response) sessionStorage.removeItem(storageKey);
     throw error;
   }
