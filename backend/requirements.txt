@@ -14,6 +14,6 @@ requests
 python-dotenv
 langgraph
 langchain-core
-pulp
+pulp==3.3.0
 openpyxl
 reportlab

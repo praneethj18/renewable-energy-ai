@@ -380,6 +380,10 @@ def grid_coordination_node(
         }
 
     except Exception as exc:
+        import logging
+        logging.getLogger(__name__).exception(
+            "Grid coordination failed with an unexpected exception"
+        )
         message = f"Grid coordination failed: {exc}"
 
         return {
